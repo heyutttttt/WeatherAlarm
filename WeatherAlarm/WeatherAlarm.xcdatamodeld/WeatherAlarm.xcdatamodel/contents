@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14B25" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Alarm" representedClassName="Alarm" syncable="YES">
+        <attribute name="alarmHour" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="alarmID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alarmMin" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="alarmMusic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alarmSD" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alarmTemp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alarmWS" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isOn" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="RealtimeWeather" representedClassName="RealtimeWeather" syncable="YES">
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="sd" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="temp" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="wd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weather" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ws" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="wse" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Weather" representedClassName="Weather" syncable="YES">
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="temperature" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weather" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weatherDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="week" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Alarm" positionX="-54" positionY="63" width="128" height="165"/>
+        <element name="RealtimeWeather" positionX="-63" positionY="18" width="128" height="150"/>
+        <element name="Weather" positionX="-63" positionY="-18" width="128" height="120"/>
+    </elements>
+</model>
